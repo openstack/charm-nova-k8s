@@ -8,7 +8,7 @@ applications:
     channel: edge
     scale: 1
     trust: false
-    series: focal
+    series: jammy
 
   # Currently traefik is required for networking things.
   # If this isn't present, the units will hang at "installing agent".
