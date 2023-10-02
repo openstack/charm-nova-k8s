@@ -47,9 +47,9 @@ applications:
     scale: 1
     trust: true
     resources:
-      nova-api-image: ghcr.io/openstack-snaps/nova-consolidated:2023.1
-      nova-scheduler-image: ghcr.io/openstack-snaps/nova-consolidated:2023.1
-      nova-conductor-image: ghcr.io/openstack-snaps/nova-consolidated:2023.1
+      nova-api-image: ghcr.io/canonical/nova-consolidated:2023.1
+      nova-scheduler-image: ghcr.io/canonical/nova-consolidated:2023.1
+      nova-conductor-image: ghcr.io/canonical/nova-consolidated:2023.1
 
   placement:
     charm: ch:placement-k8s
